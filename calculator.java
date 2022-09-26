@@ -7,6 +7,6 @@ public class calculator
         System.out.print("Enter the number to be printed there: ");
         a = in.nextInt();
         System.out.println(a);
-        in.close();
+        
     }
 }
