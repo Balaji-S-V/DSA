@@ -121,6 +121,7 @@ public class linkedlist
                 System.out.println("Updated List");
                 obj.display();
             }
-        }
+        } 
+       
 }
 
