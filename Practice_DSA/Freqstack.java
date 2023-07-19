@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Stack
 {
     int top;
@@ -34,10 +36,14 @@ class Stack
     {
         return top ==  capacity-1;
     }
+    
 }
 class Freqstack
 {
     public static void main(String[] args) {
-        
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        Stack obj = new Stack(n);
+
     }
 }
